@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            background-color: black;
+            height: 100vh;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +36,9 @@
 
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit alias numquam minus. Consectetur, obcaecati officiis. Neque atque autem deleniti nulla, voluptas vel suscipit aut asperiores ducimus, at velit provident dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo dolorem repellendus sit deserunt provident dolorum cupiditate! Optio possimus obcaecati error architecto minima exercitationem a dolorem quas quasi! Culpa, quasi enim.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit alias numquam minus. Consectetur, obcaecati officiis. Neque atque autem deleniti nulla, voluptas vel suscipit aut asperiores ducimus, at velit provident dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo dolorem repellendus sit deserunt provident dolorum cupiditate! Optio possimus obcaecati error architecto minima exercitationem a dolorem quas quasi! Culpa, quasi enim.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit alias numquam minus. Consectetur, obcaecati officiis. Neque atque autem deleniti nulla, voluptas vel suscipit aut asperiores ducimus, at velit provident dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo dolorem repellendus sit deserunt provident dolorum cupiditate! Optio possimus obcaecati error architecto minima exercitationem a dolorem quas quasi! Culpa, quasi enim.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit alias numquam minus. Consectetur, obcaecati officiis. Neque atque autem deleniti nulla, voluptas vel suscipit aut asperiores ducimus, at velit provident dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo dolorem repellendus sit deserunt provident dolorum cupiditate! Optio possimus obcaecati error architecto minima exercitationem a dolorem quas quasi! Culpa, quasi enim.</p>
     </main>
     
